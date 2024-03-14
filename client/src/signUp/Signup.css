@@ -1,0 +1,85 @@
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Handjet:wght@500&family=Pacifico&family=Poppins&family=Tilt+Prism&display=swap');
+
+.signup__container {
+    display: grid;
+    place-items: center;
+    border: 1px solid #d9d9d9;
+    padding: 20px;
+    width: 100%;
+    background-color:#B2C8BA;
+    border-radius: 15px;
+    padding: 35px 25px 15px 25px !important;
+    box-shadow: 0 0 5px var(--box-shadow);
+    font-family: "Poppins", Arial, sans-serif;
+    animation: slideIn 1.5s ease-in-out 1;
+    /* filter: blur(8px); */
+    
+}
+
+.element__wrapper {
+    display: flex !important;
+    width: 100%;
+    /* border-radius: 20vw; */
+
+}
+
+.ant-form-item-control-input-content {
+    margin: 0 5px;
+}
+
+input#basic_phone {
+    padding: 12px !important;
+    width: 100%;
+    border-radius: 20vw;
+}
+
+input#basic_lastName {
+    padding: 12px;
+    border-radius: 20vw;
+}
+
+input#basic_firstName {
+    border-radius: 20vw;
+    padding: 12px;
+}
+
+.ant-form-item {
+    width: 100%;
+}
+
+.sign__up {
+    width: 15vw;
+    height: 5vh;
+}
+
+#oldacc{
+    color: black !important;
+    /* font-weight: 700 !important; */
+}
+
+.sub-title__signup {
+    color: #3a2f99;
+    font-size: 1.8em;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    /* border-radius: 20vw; */
+
+}
+
+@media(max-width:576px) {
+    .signup__container {
+        padding: 35px 10px 20px 10px !important;
+    }
+}
+
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-10vw);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

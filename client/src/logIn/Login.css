@@ -1,0 +1,68 @@
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Handjet:wght@500&family=Pacifico&family=Poppins&family=Tilt+Prism&display=swap');
+.signin__container {
+    height: 350px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #d9d9d9;
+    padding: 10px 20px;
+    /* background-color: var(--secondary); */
+    border-radius: 15px;
+    box-shadow: 0 0 5px var(--box-shadow);
+    background-color:#B2C8BA;
+    font-family: "Poppins", Arial, sans-serif;
+    animation: slideIn 1.5s ease-in-out 1;
+}
+
+
+input#basic_email {
+    padding: 12px !important;
+    border-radius: 40px;
+    font-family: "Poppins", Arial, sans-serif;
+
+}
+
+input#basic_password {
+    /* border-radius: 25% !important; */
+    padding: 7px 7px 7px 0;
+    font-family: "Poppins", Arial, sans-serif;
+    
+}
+.sign__in {
+    width: 10vw;
+    height: 5vh;
+}
+
+#newacc{
+    color: Black !important;
+    /* font-weight: 700 !important; */
+}
+
+.ant-form-item-control-input-content {
+    display: grid !important;
+    place-items: center !important;
+}
+
+.hero {
+    height: 90vh !important;
+}
+  
+.sub-title {
+    color: #3a2f99;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-10vw);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
